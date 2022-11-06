@@ -1,0 +1,17 @@
+{
+    "name": "phpparallel/example",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Phpparallel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "william"
+        }
+    ],
+    "require": {
+        
+    }
+}
