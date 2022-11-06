@@ -1,12 +1,12 @@
 services:
   normal:
     build:
-      dockerfile: ./.docker/php81.Dockerfile
+      dockerfile: ./.docker/php72.Dockerfile
       context: .
     command: php /app/src/Services/PeopleDataProcessor.php
 
   parallel:
     build:
-      dockerfile: ./.docker/php81.Dockerfile
+      dockerfile: ./.docker/php72.Dockerfile
       context: .
     command: php /app/src/Services/PeopleDataProcessorParallel.php
